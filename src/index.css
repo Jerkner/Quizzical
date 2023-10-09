@@ -95,7 +95,7 @@ button {
 
 .questions-content {
     z-index: 1;
-    width: min(73vw, 550px);
+    width: min(87.5vw, 550px);
     height: 88vh;
     margin: 40px auto;
 }
