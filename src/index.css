@@ -16,8 +16,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     height: 100vh;
+}
+
+.questions-main {
+    justify-content: center;
 }
 
 img {
