@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     height: 100vh;
 }
 
@@ -97,7 +97,6 @@ button {
     z-index: 1;
     width: min(87.5vw, 550px);
     height: 88vh;
-    margin: 40px auto;
 }
 
 .questions-question {
