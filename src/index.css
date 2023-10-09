@@ -16,11 +16,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-}
-
-.questions-main {
     justify-content: center;
+    height: 100vh;
 }
 
 img {
@@ -98,8 +95,9 @@ button {
 
 .questions-content {
     z-index: 1;
+    justify-self: flex-start;
     width: min(87.5vw, 550px);
-    height: 88vh;
+    height: 100%;
 }
 
 .questions-question {
