@@ -95,9 +95,8 @@ button {
 
 .questions-content {
     z-index: 1;
-    justify-self: flex-start;
     width: min(87.5vw, 550px);
-    height: 100%;
+    height: 87.5vh;
 }
 
 .questions-question {
@@ -182,6 +181,10 @@ input {
 }
 
 @media (max-width: 480px) {
+    .questions-content {
+        height: 100%;
+    }
+
     .result-container {
         align-items: start;
         margin-top: 16px;
